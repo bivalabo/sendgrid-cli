@@ -1,0 +1,17 @@
+{
+  "name": "sendgrid-cli",
+  "version": "1.0.0",
+  "description": "",
+  "author": "BIVALABO Inc. <info@bivalabo.co.jp>",
+  "license": "MIT",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@sendgrid/client": "^6.4.0",
+    "dotenv": "^8.0.0",
+    "prompts": "^2.2.1"
+  }
+}
