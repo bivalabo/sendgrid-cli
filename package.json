@@ -2,16 +2,23 @@
   "name": "sendgrid-cli",
   "version": "1.0.0",
   "description": "",
-  "author": "BIVALABO Inc. <info@bivalabo.co.jp>",
+  "author": "Okashimi LLC <dev@okashimi.com>",
   "license": "MIT",
-  "main": "index.js",
+  "main": "index.ts",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@sendgrid/client": "^6.4.0",
-    "dotenv": "^8.0.0",
-    "prompts": "^2.2.1"
+    "@sendgrid/client": "^8.1.0",
+    "dotenv": "^16.3.1",
+    "prompts": "^2.4.2",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/prompts": "^2.4.9",
+    "@typescript-eslint/eslint-plugin": "^6.13.2",
+    "eslint": "^8.55.0",
+    "eslint-config-standard": "^17.1.0"
   }
 }
